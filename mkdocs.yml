@@ -1,0 +1,10 @@
+site_name: HurameeBotKitドキュメント
+site_description: HurameeBotKitに関するドキュメントです。
+site_author: m-yamagishi
+site_favicon: ./resource/favicon.ico
+repo_uri: https://github.com/m-yamagishi/HurameeBotKit
+repo_name: HurameeBotKit
+theme: readthedocs
+pages:
+  - index: index.md
+  - work: work.md
