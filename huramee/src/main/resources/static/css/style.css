@@ -1,0 +1,136 @@
+.huramee-rev {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	height: 80px;
+	width: 80px;
+	z-index: 1;
+	border-radius: 50px;
+	transition: all 0.6s ease 0s;
+}
+
+.huramee-rev:hover {
+	cursor: pointer;
+	transform: scale(1.3, 1.3);
+	transition-duration: 0.3s;
+}
+
+.chat-board {
+	display: none;
+	position: fixed;
+	bottom: 5px;
+	right: 20px;
+	z-index: 1;
+	background-color: rgb(230, 230, 230);
+	height: 500px;
+	width: 350px;
+}
+
+.board-title {
+	text-align: center;
+	color: white;
+	padding-left: 92px;
+}
+
+.board-main {
+	height: 85%;
+}
+
+.board-mode-button {
+	margin-left: -50px;
+}
+
+.line-bc {
+	overflow-y: scroll;
+	padding: 20px 15px;
+	max-width: 450px;
+	height: 100%;
+	text-align: right;
+	font-size: 14px;
+	background: #7da4cd;
+}
+
+.line-bc::-webkit-scrollbar {
+	display: none;
+}
+
+.line-bc-button-text {
+	text-align: left;
+}
+
+.balloon6 {
+	width: 100%;
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.balloon6 .faceicon {
+	float: left;
+	margin-right: -50px;
+	width: 40px;
+}
+
+.balloon6 .faceicon img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.balloon6 .chatting {
+	width: 100%;
+	text-align: left;
+}
+
+.says {
+	display: inline-block;
+	position: relative;
+	margin: 0 0 0 50px;
+	padding: 10px;
+	max-width: 250px;
+	border-radius: 12px;
+	background: #edf1ee;
+}
+
+.says:after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 3px;
+	left: -19px;
+	border: 8px solid transparent;
+	border-right: 18px solid #edf1ee;
+	-webkit-transform: rotate(35deg);
+	transform: rotate(35deg);
+}
+
+.says p {
+	margin: 0;
+	padding: 0;
+}
+
+.mycomment {
+	margin: 10px 0;
+}
+
+.mycomment p {
+	display: inline-block;
+	position: relative;
+	margin: 0 10px 0 0;
+	padding: 8px;
+	max-width: 250px;
+	border-radius: 12px;
+	background: #30e852;
+	font-size: 15px;
+	text-align: left;
+}
+
+.mycomment p:after {
+	content: "";
+	position: absolute;
+	top: 3px;
+	right: -19px;
+	border: 8px solid transparent;
+	border-left: 18px solid #30e852;
+	-webkit-transform: rotate(-35deg);
+	transform: rotate(-35deg);
+}

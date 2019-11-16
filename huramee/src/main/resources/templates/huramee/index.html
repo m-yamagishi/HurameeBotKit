@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>top page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css"
+	th:href="@{../css/style.css}">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/botscript.js"
+	th:src="@{../js/botscript.js}"></script>
+</head>
+<body>
+	<img src="../img/huramee_rev.png" th:src="@{../img/huramee_rev.png}" id="huramee" class="huramee-rev">
+	<div id="chat-board" class="chat-board">
+		<div class="bg-info ontainer-fluid board-title">
+			<button id="bot-mode" type="button"
+				class="btn btn-info dropdown-toggle board-mode-button"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span id="bot-mode-text">BERT semantic search</span>
+				<div class="dropdown-menu">
+					<span id="bot-mode-search" class="dropdown-item">BERT
+						Semantic search</span> <span id="bot-mode-question" class="dropdown-item">BERT
+						Q&A</span> <span id="bot-mode-learning" class="dropdown-item">Active
+						learning</span>
+				</div>
+			</button>
+			<button id="board-close" class="btn btn-outline-light float-right"
+				type="button">X</button>
+		</div>
+		<div id="board-main" class="board-main">
+			<div id="line-bc" class="line-bc"></div>
+		</div>
+		<div class="input-group mb-3">
+			<input id="chat-input" type="text" class="form-control"
+				placeholder="メッセージを入力してください">
+			<div class="input-group-append">
+				<button id="chat-submit-button" class="btn btn-outline-secondary"
+					type="button">送信</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

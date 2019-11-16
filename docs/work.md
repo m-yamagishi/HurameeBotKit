@@ -4,3 +4,21 @@
 	- https://qiita.com/keitarou/items/065d4311439cc6b6847d
 - Spring Boot
 	- tymeleaf https://qiita.com/yukihigasi/items/808d5972d3edc0798f07
+		- th:href,th:src https://qiita.com/k0001/items/3d506daf9e15a211e8b2
+	- Spring Data Elasticsearch https://spring.io/projects/spring-data-elasticsearch#learn
+- STS
+	- htmlのホットデプロイ https://qiita.com/NagaokaKenichi/items/9b19665f131f1a8017be
+- Maven
+	- ローカルリポジトリの場所 https://www.codeflow.site/ja/article/maven__where-is-maven-local-repository
+- JQuery
+	- cdn https://code.jquery.com/
+	- slimビルドにはajaxが含まれていない https://develtips.com/javascript/118
+- Bootstrap
+	- CDN https://getbootstrap.com/docs/4.3/getting-started/introduction/
+- Elasticsearch
+	- esとkibanaをmac PCにインストール https://www.yoheim.net/blog.php?q=20190903
+	- ダンプ https://www.npmjs.com/package/elasticdump
+	- ファイルでダンプ https://qiita.com/nakazii-co-jp/items/3199433d685d0600c6d6
+	- クエリ https://qiita.com/stenpel/items/b53a03cdcd94d258a16c
+	- 類似文書検索 more like this(Bag-of-Word) https://medium.com/hello-elasticsearch/elasticsearch-%E5%88%86%E9%A1%9E%E4%BA%88%E6%B8%AC-more-like-this%E7%B7%A8-78d058ef9716
+	- spring data elasticsearchとelasticsearchのバージョン対応表 https://docs.spring.io/spring-data/elasticsearch/docs/3.2.0.RC3/reference/html/#preface.versionss
