@@ -12,4 +12,6 @@ import lombok.Setter;
 public class ProdDocument {
 	@Id
 	private String id;
+	private String content_ja;
+	private String url;
 }
